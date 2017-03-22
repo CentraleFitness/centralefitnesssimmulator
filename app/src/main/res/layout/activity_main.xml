@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fitness.centrale.com.centralefitnesssimulator.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Addresse du server : "
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="200dp"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="266dp"
+        android:layout_height="17dp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="377dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="153dp"
+        android:text="Off/On"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="266dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
